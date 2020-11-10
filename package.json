@@ -1,0 +1,33 @@
+{
+  "name": "react-native-touch-tracker",
+  "version": "1.0.0",
+  "description": "tracks all touches in react native and has utilities to create outside click functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Dimitri van der Vliet",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-typescript": "^11.0.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {}
+}
