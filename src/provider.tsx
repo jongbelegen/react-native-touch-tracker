@@ -7,7 +7,7 @@ type TouchTrackerProviderProps = {
   style?: StyleProp<ViewStyle>;
 };
 
-export function ClickTrackerProvider({
+export function TouchTrackerProvider({
   children,
   style,
 }: TouchTrackerProviderProps): JSX.Element {
