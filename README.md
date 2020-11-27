@@ -28,6 +28,7 @@ export default function App(): JSX.Element {
   );
 }
 ```
+Since `<TouchTrackerProvider />` renders a view you probably need to add some style like flex: 1 to keep it from messing up your style.
 
 ## Usage
 
@@ -45,9 +46,6 @@ function TouchAwareComponent() {
   return <Button onPress={() => 0} title="Press it" />;
 }
 ```
-
-Since `<TouchTrackerProvider />` renders a view you probably need to add some style like flex: 1 to keep it from messing up your style.
-
 ### Utilities
 You can make use of the utilities to detect if a click was inside or outside
 ```tsx

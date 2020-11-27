@@ -1,6 +1,6 @@
 {
   "name": "react-native-touch-tracker",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "tracks all touches in react native and has utilities to create outside click functionality",
   "main": "dist/index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "type": "git",
     "url": "https://github.com/jongbelegen/react-native-touch-tracker"
   },
+  "bugs": {
+    "url": "https://github.com/jongbelegen/react-native-touch-tracker/issues"
+  },
+  "keywords": ["react native", "outside", "click", "press", "away", "modal", "expo"],
   "author": "Dimitri van der Vliet",
   "license": "Unlicense",
   "devDependencies": {
