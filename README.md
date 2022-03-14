@@ -1,3 +1,5 @@
+❤️
+
 ## About The Project
 For when you need to make "click away" or "click outside" interactions in react native.
  
